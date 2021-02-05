@@ -1,0 +1,15 @@
+---
+title: "partner"
+author: "Sydney Thompson"
+date: "2/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+  Madalyn Mueller, Username: madmuell
+  
+  Most recent commit titled 'maddies first commit' including the hw1 HTML file. Commit ID: 5e8ccf7f4cbf2f7dd09631f01668d358f059e4b7
+  
