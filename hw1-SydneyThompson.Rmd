@@ -1,0 +1,88 @@
+---
+title: 'Homework #1'
+author: "Sydney Thompson"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This homework is more or less a tutorial that helps you set up the coding environment used in this course, and familiarizes you with the format of the assignment submission. 
+As a pre-requisite of this homework, first install R, and then the RStudio (the free version of Rstudio Desktop). 
+
+Please respond to all questions. If the question asks you to do something on your laptop and you have finished that, just say "Done". 
+
+1. Create a folder named `ds202_hw1`, and **either** create an RMarkDown file `hw1.Rmd` under this folder **or** move the provided template into this folder. `hw1.Rmd` will include your solutions. The file and folder names are *case-sensitive*, which means `hw1.Rmd` and `HW1.rmd` are different. *It is crucial to follow the exact folder structure and file names* in this course, so that your homework can be reproduced. The correct folder structure is
+
+    ```
+    ds202_hw1
+    |-- hw1-SydneyThompson.Rmd
+    |-- hw1.html (generated after knitting)
+    ```
+    
+  Done
+    
+2. Write your name in the YAML of your homework `Rmd` file.
+
+  Done
+
+3. Write a paragraph to introduce yourself. Set your name in bold font and your major in italic. 
+
+  My name is **Sydney Thompson** and I am a sophomore at ISU majoring in *Aerospace Engineering* with a minor in Data Science. I live in Nowthen, Minnesota and graduated form Blaine High School. Outside of school you'll find me drag racing, snowboarding, hiking, participating in water sports at my cabin, reading, and hanging out with my family and friends. 
+  
+4. Write a paragraph describing a job that you think is related to data science. Include a hyperlink and an image. Make sure your answer is in a nice format to read. 
+
+  ![](https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/05/Top-Data-Science-Jobs.jpg)
+  
+  Above are a few examples of jobs related to data science. I am most interested in the Data Analyst position for a future career option out of college. Below is a brief description about what a Data Analyst does on a day to day basis.
+  
+  A specific, individual job that is related to data science would be a Data Analyst. A Data Analyst has many tasks to accommodate to, these include but are not limited to, data mining, data organization and format, interpreting/predicting data sets, trends and patterns, designing data systems and databases, fixing coding errors, collaborating with coworkers about data trends and patterns, and presenting data reports. 
+  
+  To learn more information about a Data Analyst click on the link below:
+  
+  <https://www.northeastern.edu/graduate/blog/what-does-a-data-analyst-do/#:~:text=%20Generally%20speaking%2C%20though%2C%20the%20responsibilities%20of%20a,that%20can%20be%20easily%20read%20by...%20More%20>
+  
+  
+5. What data topic will you be most interested in? (Optional) Provide a source of such dataset if you have.
+
+  I will be most interested in the Sports data sets during this semester. 
+  
+6. To check that your R and Rstudio installation is correct, find the version of R by entering `version` into the R console. Include this command into a R code trunk in your solution `Rmd` file to have it automatically printed in the knitted html file. 
+
+    ```{r}
+    version
+    ```
+  
+7. Install git. 
+    - If you are on Windows: 
+        a. Install [Git for Windows](https://gitforwindows.org/). In the coming weeks we will use the Git Bash (but not the Git GUI). 
+        b. After installation, set up Rstudio to use Git bash as the shell for the Terminal: Open RStudio, click Tools--Global Options--Terminal; under **Shells**, select Git Bash; click OK. 
+        c. In the main menu of RStudio: click Tools--Terminal--New Terminal. If you have a `$` before your prompt, then you should be good to go.
+    - If you are on Linux or macOS, Git has probably been installed by default, so you do not need to install anything. Just click the Terminal tab (above the R Console).
+
+  Done
+  
+8. What is the version of your Git? To find out, go to the Terminal tab in RStudio (right to the Console tab), and type in the following command. If it works, this shows that the setup of your terminal and Git is correct. 
+<!-- Then explore the bash command line and Git. -->
+
+    ```
+    git --version
+    ```
+
+  git version 2.30.0.windows.2
+  
+9. Configure your git username and user email by modifying and entering the following commands into the terminal
+
+    ```
+    git config --global user.name "Sydney Thompson"
+    git config --global user.email "sjt3@iastate.edu"
+    ```
+
+  Done
+  
+
+10. Register a [GitHub](https://www.github.com) account. What is your username?
+
+  Username: sydneyjt3
+  
