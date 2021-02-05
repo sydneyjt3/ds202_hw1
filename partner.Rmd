@@ -1,0 +1,13 @@
+---
+title: "partner"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Sydney Thompson sydneyjt3
+Commited using "Initial commit" commit dfe00f9265fc88e689ef1948a349e7b316c8a568
+I was able to knit my partner's homework file without error
+I did not have any error/difficulty, Github is pretty easy
